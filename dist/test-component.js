@@ -584,19 +584,19 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fc08105a-vue-loader-template"}!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./test-component.vue?vue&type=template&id=6ff44002&shadow
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("哈哈哈哈哈哈哈")]),_c('p',[_vm._v(_vm._s(_vm.message))]),_c('child')],1)}
+// CONCATENATED MODULE: C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fc08105a-vue-loader-template"}!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./test-component.vue?vue&type=template&id=086a1124&shadow
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("哈哈哈哈哈哈哈")]),_c('p',[_vm._v(_vm._s(_vm.message))]),_c('child',{attrs:{"name":"我是子组件"},on:{"events":_vm.FatherEvent}})],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./test-component.vue?vue&type=template&id=6ff44002&shadow
+// CONCATENATED MODULE: ./test-component.vue?vue&type=template&id=086a1124&shadow
 
-// CONCATENATED MODULE: C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fc08105a-vue-loader-template"}!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./child.vue?vue&type=template&id=0475be38&
-var lib_vue_loader_options_childvue_type_template_id_0475be38_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('button',[_vm._v(_vm._s(_vm.btninfo))])])}
-var lib_vue_loader_options_childvue_type_template_id_0475be38_staticRenderFns = []
+// CONCATENATED MODULE: C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fc08105a-vue-loader-template"}!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./child.vue?vue&type=template&id=ab2f6002&
+var lib_vue_loader_options_childvue_type_template_id_ab2f6002_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('button',{on:{"click":_vm.ChildEvent}},[_vm._v(_vm._s(_vm.name))])])}
+var lib_vue_loader_options_childvue_type_template_id_ab2f6002_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./child.vue?vue&type=template&id=0475be38&
+// CONCATENATED MODULE: ./child.vue?vue&type=template&id=ab2f6002&
 
 // CONCATENATED MODULE: C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/thread-loader/dist/cjs.js!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/babel-loader/lib??ref--12-1!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/cache-loader/dist/cjs.js??ref--0-0!C:/Users/rzdong/AppData/Roaming/nvm/v8.9.4/node_modules/@vue/cli-service-global/node_modules/vue-loader/lib??vue-loader-options!./child.vue?vue&type=script&lang=js&
 //
@@ -614,8 +614,21 @@ var lib_vue_loader_options_childvue_type_template_id_0475be38_staticRenderFns = 
     };
   },
 
-  mounted() {}
+  props: {
+    name: String
+  },
 
+  mounted() {},
+
+  methods: {
+    ChildEvent() {
+      this.$emit('events', {
+        a: 1,
+        b: 2
+      }, 'haha');
+    }
+
+  }
 });
 // CONCATENATED MODULE: ./child.vue?vue&type=script&lang=js&
  /* harmony default export */ var childvue_type_script_lang_js_ = (lib_vue_loader_options_childvue_type_script_lang_js_); 
@@ -629,13 +642,13 @@ var lib_vue_loader_options_childvue_type_template_id_0475be38_staticRenderFns = 
 
 var component = normalizeComponent(
   childvue_type_script_lang_js_,
-  lib_vue_loader_options_childvue_type_template_id_0475be38_render,
-  lib_vue_loader_options_childvue_type_template_id_0475be38_staticRenderFns,
+  lib_vue_loader_options_childvue_type_template_id_ab2f6002_render,
+  lib_vue_loader_options_childvue_type_template_id_ab2f6002_staticRenderFns,
   false,
   null,
   null,
   null
-  
+  ,true
 )
 
 /* harmony default export */ var child = (component.exports);
@@ -658,10 +671,18 @@ var component = normalizeComponent(
     };
   },
 
-  mounted() {
-    alert(12321);
+  mounted() {// alert(12321)
   },
 
+  methods: {
+    FatherEvent(e, one) {
+      // alert('father');
+
+      /* eslint-disable */
+      console.log(e, one);
+    }
+
+  },
   components: {
     child: child
   }
@@ -720,7 +741,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to Shadow Root
 var add = __webpack_require__("f520").default
 module.exports.__inject__ = function (shadowRoot) {
-  add("32d9bd34", content, shadowRoot)
+  add("bf504260", content, shadowRoot)
 };
 
 /***/ }),
